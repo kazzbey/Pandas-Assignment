@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("sales_data_sample.csv")
+df = pd.read_csv("sales_data_sample.csv", encoding="cp1252")
 
 # Select input features
 X = df[[

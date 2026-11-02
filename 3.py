@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("sales_data_sample.csv")
+df = pd.read_csv("sales_data_sample.csv", encoding="cp1252")
 
 # Convert date into datetime format
 df["ORDERDATE"] = pd.to_datetime(df["ORDERDATE"])

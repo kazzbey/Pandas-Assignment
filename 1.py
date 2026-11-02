@@ -5,6 +5,7 @@ df = pd.read_csv("sales_data_sample.csv", encoding="cp1252")
 # pd is an alias for Pandas.
 # read_csv() reads your CSV file.
 # df stores the dataset as a DataFrame.
+# datatype of df is a dataframe
 
 
 # Display first five records

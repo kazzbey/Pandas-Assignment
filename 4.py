@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("sales_data_sample.csv")
+df = pd.read_csv("sales_data_sample.csv", encoding="cp1252")
 
 # Total purchases by customer
 total_purchases = df.groupby("CUSTOMERNAME")["SALES"].sum()

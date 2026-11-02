@@ -10,7 +10,7 @@ average_sales = df.groupby("PRODUCTLINE")["SALES"].mean()
 
 # Sort by total sales
 result = total_sales.sort_values(ascending=False)
-
+# result,total sales and average sales all are pandas series, so we can use idxmax() to get the index of the maximum value.
 print("Total Sales:")
 print(result)
 
